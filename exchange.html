@@ -1,0 +1,138 @@
+<!-- exchange.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exchange Cryptocurrencies</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#exchange">Exchange</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Exchange Cryptocurrencies</h2>
+            <table>
+                <tr>
+                    <th>Currency</th>
+                    <th>Buy</th>
+                    <th>Sell</th>
+                </tr>
+                <tr>
+                    <td>BTC</td>
+                    <td><input type="number" id="btc-buy" value="0"></td>
+                    <td><input type="number" id="btc-sell" value="0"></td>
+                </tr>
+                <tr>
+                    <td>ETH</td>
+                    <td><input type="number" id="eth-buy" value="0"></td>
+                    <td><input type="number" id="eth-sell" value="0"></td>
+                </tr>
+                <!-- Add more currencies here -->
+            </table>
+            <button id="exchange-currencies">Exchange</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Crypto Exchange</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- styles.css -->
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #f7f7f7;
+    padding: 2em;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #333;
+    margin-top: 0;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0f0f0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
