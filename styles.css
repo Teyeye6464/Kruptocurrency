@@ -1,0 +1,16 @@
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  animation: bgAnimation 10s ease infinite;
+}
+
+@keyframes bgAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
