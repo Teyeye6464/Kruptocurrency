@@ -20,3 +20,9 @@ const learnMoreButton = document.getElementById('learn-more');
 learnMoreButton.addEventListener('click', () => {
     // Add functionality for learning more
 });
+// script.js
+const exchangeCurrenciesButton = document.getElementById('exchange-currencies');
+
+exchangeCurrenciesButton.addEventListener('click', () => {
+    // Add functionality for exchanging currencies
+});
