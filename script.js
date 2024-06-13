@@ -26,3 +26,12 @@ const exchangeCurrenciesButton = document.getElementById('exchange-currencies');
 exchangeCurrenciesButton.addEventListener('click', () => {
     // Add functionality for exchanging currencies
 });
+// script.js
+const faqLinks = document.querySelectorAll('a[href^="#faq-"]');
+
+faqLinks.forEach((link) => {
+    link.addEventListener('click', (event) => {
+        event.preventDefault();
+        // Add functionality for FAQ links
+    });
+});
